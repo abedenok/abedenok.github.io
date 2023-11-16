@@ -1,0 +1,232 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 1;
+}
+
+.container {
+  padding: 0 0;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu .menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.menu-border {
+  border-right: 2px dashed #000;
+}
+
+.subheader {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 0;
+  padding-top: 15px;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.subheader .container {
+  padding-left: 30px;
+}
+.subheader .subheader-logotype {
+  max-width: 100%;
+  padding-left: 5px;
+}
+
+.subheader .subheader-official {
+  padding-top: 4px;
+  padding-left: 5px;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.subheader .subheader-call {
+  color: #fff;
+  font-weight: 300;
+  text-align: right;
+  margin-top: 2px;
+  padding-right: 55px;
+  position: relative;
+  left: 10px;
+}
+
+.subheader .subheader-phone {
+  display: block;
+  margin-top: 8px;
+  padding-right: 55px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.subheader .subheader-btn {
+  margin-top: 4px;
+  width: 152px;
+  height: 46px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 328.571% */
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  position: relative;
+  left: -60px;
+}
+
+.promo {
+  background: url(../img/logo/taxi-bg.png) center center/cover no-repeat; /* lightgray 50% / cover no-repeat; */
+  min-height: 799px;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+.promo .promo-header {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 40% */
+  text-transform: uppercase;
+}
+
+.promo .promo-subheader {
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.promo-descr {
+  padding-top: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+.promo-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 115px;
+  width: 259px;
+  height: 63px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 63px; /* 350% */
+  text-transform: uppercase;
+}
+
+.advantages {
+  width: 100%;
+  min-height: 850px;
+}
+
+.advantages .adv-keywords {
+  width: 115px;
+  height: 27px;
+  background-color: #000;
+  margin: 53px auto 0 auto;
+  padding-top: 8px;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px; /* 100% */
+  text-transform: uppercase;
+}
+
+.adv-header {
+  padding-top: 33px;
+  color: #222;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  text-transform: uppercase;
+}
+
+.adv-item {
+  display: flex;
+  width: 495px;
+  padding-top: 16px;
+}
+.adv-item-radius {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 172, 199);
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+}
+
+.adv-item-descr {
+  width: 374px;
+  min-height: 150px;
+  padding-left: 25px;
+  color: #202020;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.adv-item-descr-header {
+  color: #1eacc7;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 123.529% */
+}
